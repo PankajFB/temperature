@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.sun {
+ /* float: right; */
+ z-index: 2;
+ right: 30px;
+ top: 60px;
+ position: absolute;
+}
+
+
+
+.sun2 {
+ /* float: right; */
+ overflow: visible;
+ z-index: 2;
+ left: -12px;
+  bottom: 530px;
+ position: absolute;
+}
+
+
+.temp{
+  /* top: 120px; */
+  font-weight: 500;
+  position: fixed;
+  /* font-weight:500 ; */
+  left: 100px;
+  bottom: 150px;
+  z-index: 30;
+  color: black;
+  font-size: 150px;
+} 
+
+.temp2{
+  /* top: 120px; */
+  
+  position: fixed;
+  /* font-weight:500 ; */
+  left: 100px;
+  bottom: 70px;
+  
+  
+  /* opacity: 0.8; */
+  z-index: 30;
+  color: black;
+  font-size: 150px;
+} 
+
+.temp3{
+  /* top: 120px; */
+  
+  position: fixed;
+  /* font-weight:500 ; */
+  left: 1300px;
+  bottom: 310px;
+  
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* size: 100px; */
+  z-index: 40;
+  
+  
+} 
+.temp4{
+  /* top: 120px; */
+  font-weight: 500;
+  position: fixed;
+  /* font-weight:500 ; */
+  text-transform: capitalize;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  left: 180px;
+  bottom: 610px;
+  z-index: 30;
+  color: black;
+  font-size: 130px;
+} 
+
+
+
+.back{
+  /* display: none; */
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+
+
+
+.floating { 
+  
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  from { transform: translate(0,  0px); }
+  65%  { transform: translate(0, 15px); }
+  to   { transform: translate(0, -0px); }    
+}
