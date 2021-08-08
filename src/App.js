@@ -43,7 +43,7 @@ function App() {
   
     <form className="form-inline temp3">
      <h1>Search any city</h1>
-    {/* <input onChange={(e)=> setCity(e.target.value)}  className="form-control  d-lg-inline mr-sm-2" type="search" placeholder="Search" aria-label="Search"/> */}
+    <input onChange={(e)=> setCity(e.target.value)}  className="form-control  d-lg-inline mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
     
   </form>
 
