@@ -14,7 +14,7 @@ function App() {
    
   const [users, setUsers] = useState([]);
   const [info, setInfo] = useState([]);
-  const [city,setCity] = useState("paris")
+  const [city,setCity] = useState("noida")
   
   
 // console.log(users.temp)
